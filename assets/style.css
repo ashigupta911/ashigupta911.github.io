@@ -51,6 +51,7 @@ body::-webkit-scrollbar {
     background-color: #ffaa5e;
     object-position: right top;
     font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
 }
 
 .title2 {
@@ -59,6 +60,7 @@ body::-webkit-scrollbar {
     background-color: #ffaa5e;
     object-position: right top;
     font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
 }
 
 .title3 {
@@ -67,10 +69,11 @@ body::-webkit-scrollbar {
     background-color: #ffaa5e;
     object-position: right top;
     font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
 }
 
 .box1 {
-    border: 10px solid #203c56;
+    border: 1px solid black;
     width: 75%;
     padding-left: 30px;
     padding-right: 30px;
@@ -82,7 +85,7 @@ body::-webkit-scrollbar {
 
 .box2 {
     width: 75%;
-    border: 10px solid #203c56;
+    border: 1px solid black;
     padding-left: 30px;
     padding-right: 30px;
     margin: 20px;
@@ -93,13 +96,14 @@ body::-webkit-scrollbar {
 
 .box3 {
     width: 75%;
-    border: 10px solid #203c56;
+    border: 1px solid black;
     padding-left: 30px;
     padding-right: 30px;
     margin: 20px;
     color: #ffecd6;
     background-color: #8d697a;
     font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+    
 }
 
 @media(min-width: 992px) {
@@ -117,6 +121,9 @@ body::-webkit-scrollbar {
     .col-md-12 {
         width: 100%;
         float: left;
+    }
+    .box3 {
+        width: 88%;
     }
 }
 
