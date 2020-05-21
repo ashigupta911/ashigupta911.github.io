@@ -1,0 +1,125 @@
+body {
+    background-color: #0d2b45;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.menu {
+    text-align: center;
+    color: #ffecd6;
+    font-weight: bold;
+    font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}
+
+.para {
+    text-align: center;
+    color: #ffecd6;
+    font-weight: bold;
+    font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+}
+
+.column3 {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.title1 {
+    float: right;
+    color: #444;
+    background-color: #ffaa5e;
+    object-position: right top;
+    font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title2 {
+    float: right;
+    color: #444;
+    background-color: #ffaa5e;
+    object-position: right top;
+    font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title3 {
+    float: right;
+    color: #444;
+    background-color: #ffaa5e;
+    object-position: right top;
+    font-family: 'Century Gothic', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box1 {
+    border: 10px solid #203c56;
+    width: 75%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    color: #ffecd6;
+    background-color: #8d697a;
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+}
+
+.box2 {
+    width: 75%;
+    border: 10px solid #203c56;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    color: #ffecd6;
+    background-color: #8d697a;
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+}
+
+.box3 {
+    width: 75%;
+    border: 10px solid #203c56;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    color: #ffecd6;
+    background-color: #8d697a;
+    font-family: 'Century Gothic', 'Courier New', Courier, monospace;
+}
+
+@media(min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+@media(max-width: 991px) and (min-width:768px) {
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media(max-width: 767px) {
+    .col-sd-12 {
+        width: 100%;
+        float: left;
+    }
+}
